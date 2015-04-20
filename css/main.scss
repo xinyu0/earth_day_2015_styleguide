@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: "proxima-nova-soft", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   1.3rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -52,7 +52,13 @@ $header-color: #51dad0;
     }
 }
 
-
+@mixin heading {
+    font-family: "proxima-nova-extra-condensed";
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -61,18 +67,6 @@ $header-color: #51dad0;
         "syntax-highlighting"
 ;
 
-
-.fonts {
-	font-family: "proxima-nova-extra-condensed";
-	letter-spacing: 0.15em;
-	line-height: 1.2;
-}
-
-.bodyfont {
-	font-family: "proxima-nova-soft",sans-serif;
-	font-size: 1.1rem;
-	line-height: 1.6;
-}
 
 // grids
 
@@ -122,6 +116,5 @@ $gut: 3%;
 .col12 {
   @include grid(12);
 }
-
 }
 

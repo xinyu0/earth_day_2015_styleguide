@@ -11,10 +11,9 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    @include heading;
+    font-size: 2.5rem;
+    margin: 1rem 0;
     float: left;
 
     &,
