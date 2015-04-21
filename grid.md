@@ -3,7 +3,7 @@ layout: page
 title: Grid
 permalink: /grid/
 ---
-The site was built based on a 12-column responsive grid system, with 3% of space between each column, and 4 rem padding in between each section. 
+The site was built based on a 12-column responsive grid system, with 3% of space between each column, and 4rem padding in between each section. 
 
 <section>
 	<div class="col12">12 columns</div>

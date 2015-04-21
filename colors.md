@@ -5,7 +5,7 @@ permalink: /colors/
 ---
 
 <p>The primary color will be used for icons, background, highlighted elements like buttons or links. Secondary colors will be used for dates.<br>
-When used for background, please set the opacity as 0.8. </p>
+When used for background, please set the opacity to 0.8. </p>
 
 <h3>Primary Colors</h3>
 

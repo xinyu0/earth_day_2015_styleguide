@@ -4,11 +4,11 @@ title: Logo
 permalink: /logo/
 ---
 
-Small screen size:  
+global:  
 
 <div class="logo0"></div>
 
 
-Full screen size:  
+medium and large:  
 
 <div class="logo"></div>

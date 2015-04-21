@@ -10,7 +10,23 @@ placeholder text will be 1rem, regular weight and light grey.
 
 <h3>Standard</h3>
 
-<pre class=""><code>&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Button&lt;/a&gt;</code></pre>
+<section>
+	<div class="col4f">
+		<label>Form</label>
+	</div>
+	<div class="col8f">
+		<input name='Form' type='text'>
+	</div>
+</section>
+
+<pre class=""><code>&lt;section&gt;
+	&lt;div class=&quot;col4f&quot;&gt;
+		&lt;label&gt;Form&lt;/label&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col8f&quot;&gt;
+		&lt;input name='Form' type='text'&gt;
+	&lt;/div&gt;
+&lt;/section&gt;</code></pre>
 
 <h3>Primary</h3>
 
