@@ -1,0 +1,13 @@
+---
+layout: page
+---
+<h1>Style Guide</h1>
+Welcome to the Earth Day 2015 redesign styleguide.
+<br>
+Here you will find some pre-designed elements, graphics and rules to follow to help make sure the redesign of Earth Day 2015 look and feel consist. 
+<br>
+<br>
+The goal is to make the site super easy to navigate and also add a fun vibe to it, so it will look cool and charismatic.
+<br>
+<br>
+See the Final Redesign <a href="http://xinyudesign.com/earth_day_2015">here</a>.

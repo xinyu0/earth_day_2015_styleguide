@@ -5,20 +5,41 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
+    width: 100%;
+    background: #222;
+    color: #fff;
+}
+
+@media screen and (min-width: $on-palm) {
+    .site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background: #222;
+    color: #fff;
+    height: 100%;
+}
+
 }
 
 .site-title {
     @include heading;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 1rem 0;
     float: left;
-
+    color: #fff;
+    line-height: 1.2;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fff;;
     }
 }
 
@@ -95,6 +116,12 @@
     padding: $spacing-unit 0;
 }
 
+@media screen and (min-width: $on-palm) {
+.site-footer {
+    margin-left: 250px;
+}
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -164,6 +191,12 @@
     padding: $spacing-unit 0;
 }
 
+@media screen and (min-width: $on-palm) {
+.page-content {
+    margin-left: 250px;
+}
+}
+
 .page-heading {
     font-size: 20px;
 }
@@ -197,8 +230,7 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    // font-size: 42px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -230,6 +262,13 @@
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+    p {
+        font-size: 1.3rem;
+        @include media-query($on-laptop) {
+            font-size: 1.1rem;
         }
     }
 }

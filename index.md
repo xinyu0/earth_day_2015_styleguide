@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
+title: Styleguide
+permalink: /
 ---
-<h1>Style Guide</h1>
 Welcome to the Earth Day 2015 redesign styleguide.
 <br>
 Here you will find some pre-designed elements, graphics and rules to follow to help make sure the redesign of Earth Day 2015 look and feel consist. 
