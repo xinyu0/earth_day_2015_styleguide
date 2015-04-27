@@ -15,38 +15,48 @@ Here is a link to my proposal:
 <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/contents.jpg">
 <img src="https://raw.githubusercontent.com/xinyu0/tiy-assignments/master/day_47/contents.jpg" alt="contents outline"></a>
 
-<!-- We used post-it notes to layout the contents.
-Basically, on each page there will be the header with the logo, nav bar, countdown, call-to-action buttons, and the footer  -->
+4. build concepts & sketch 10 responsive wireframes  
+Here is a link to my sketches:  
+<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/theearthday2015_sketches.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_47/theearthday2015_sketches.pdf</a>  
+Here is a link to my wireframes:  
+<a href="hhttps://github.com/xinyu0/tiy-assignments/blob/master/day_51/wireframes.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_51/wireframes.pdf</a>
 
-4. build concepts & sketch 10 responsive wireframes
+4. create 3 StyleTiles (typography & color selection)  
+Here is a link to my StyleTiles:  
+<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_48/StyleTiles.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_48/StyleTiles.pdf</a>
 
-4. create 3 StyleTiles (typography & color selection)
+5. explore multiple options & create Comps (grid structure & usability)  
+Here is a link to my Comps:  
+<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_51/comps.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_51/comps.pdf</a>
 
-5. explore multiple options & create Comps (grid structure & usability)
 
 6. Code HTML & CSS for 5 pages of the site with Bourbon & Sass (Reset CSS coding (Reset.css or Normalize.css), Responsive Site with 3+ views: Media Queries, percentage-based width on divs, with
 max-widths in pixels, Em-based typography, and flexible images (and alt tags))
 
-7. Icon set of 5 icons custom designed for project
+7. Icon set of 5 icons custom designed for project  
+Here is a link to the logo and icon designs:  
+<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_54/logo_icons.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_54/logo_icons.pdf</a>
 
+8. Add One or more jQuery-depedent plug-ins that adds to the user experience of the site  
+I utilized the following 2 Java-script plugins:  
+* Responsive-nav: <a href="http://responsive-nav.com/">http://responsive-nav.com/</a>
+* Timer: <a href="http://codepen.io/chriscoyier/pen/vbsHK">http://codepen.io/chriscoyier/pen/vbsHK</a>
 
-8. One or more jQuery-depedent plug-ins that adds to the user experience of the site
-
-9. Modernizr.js for progressive enhancement and graceful fall-back
-
-
-
-
-
-
-why the earth day 2015 website?
-To attend the iron yard, I moved down to Austin about 4 months ago. one thing i noticed when i moved down here is Austin is s a very green eco-friendly city; no plastic grocery bags, recycling is a very big thing.  so earth day, which is world’s largest civil observance is coming up this month on the 22nd. you may be like, okay i definitely care about the earth, but is there anything else i can do other than turning off my lights for an hour. so the earth day 2015 website aims to give you all the info you needed whether to find an event near you or to organize an event. they really wanna engage everyone, especially the younger generation. but it’s current website didn’t reflect it’s inviting contemporary voice. it looks very dull, the color palette is black and dark blue and on a white background, so what i wanna do is to redesign the 2015 website that will engage viewer, especially the younger audience. i want to give out a clean and friendly vibe, using brighter color, and adding some more eye-catching elements and better images. 
+9. Use Modernizr.js for progressive enhancement and graceful fall-back
 
 
 
 
 
-1. Brainstorm  
+
+<!-- why the earth day 2015 website?
+To attend the iron yard, I moved down to Austin about 4 months ago. one thing i noticed when i moved down here is Austin is s a very green eco-friendly city; no plastic grocery bags, recycling is a very big thing.  so earth day, which is world’s largest civil observance is coming up this month on the 22nd. you may be like, okay i definitely care about the earth, but is there anything else i can do other than turning off my lights for an hour. so the earth day 2015 website aims to give you all the info you needed whether to find an event near you or to organize an event. they really wanna engage everyone, especially the younger generation. but it’s current website didn’t reflect it’s inviting contemporary voice. it looks very dull, the color palette is black and dark blue and on a white background, so what i wanna do is to redesign the 2015 website that will engage viewer, especially the younger audience. i want to give out a clean and friendly vibe, using brighter color, and adding some more eye-catching elements and better images.  -->
+
+
+
+
+
+<!-- 1. Brainstorm  
 I first listed the content that I want to include on the page I'm wireframing.  
 
 2. Organize my content list
@@ -78,3 +88,4 @@ Itching to get started? Here are the resources that I've compiled that I find pa
 Previously Recorded Q&A (56:03)
 Originally recorded February 6th, 2013________Tools
 Choosing a tool to execute your wireframes with is a personal decision; it depends on the level of fidelity that you're looking for and whatever you feel most comfortable with. What may work well for one person or project may not work for another. This post will be most helpful if you've watched video 5 of my lecture. Here are the tools I've curated. 
+ -->
