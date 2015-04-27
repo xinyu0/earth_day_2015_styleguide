@@ -3,7 +3,7 @@ layout: page
 title: Buttons
 permalink: /buttons/
 ---
-
+I wanted to enhance all the buttons and add a little flare to the redesigned web page, so I used simple CSS transition effects to trigger the users to click and see more.
 
 <!-- I want the primary button as tall as the input 40px tall, and has the white background. The button text will be black. The hover state will have the secondary colar as the background.  -->
 <h3>Standard</h3>  

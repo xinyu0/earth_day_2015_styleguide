@@ -3,7 +3,7 @@ layout: page
 title: Icons
 permalink: /icons/
 ---
-Our icons are simple with mostly sharp edges. Try to keep your outlines to a 2 pixel width.
+The icons are designed using the same principle as the logo design - simple and recognizable. 
 
 <div class="icon1"></div>
 <div class="icon2"></div>
