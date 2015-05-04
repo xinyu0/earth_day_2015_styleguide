@@ -174,14 +174,14 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+    // &:visited {
+    //     color: darken($brand-color, 15%);
+    // }
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+    // &:hover {
+    //     color: $text-color;
+    //     text-decoration: underline;
+    // }
 }
 
 

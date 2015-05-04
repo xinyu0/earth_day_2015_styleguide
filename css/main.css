@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #dcdcdc;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -116,11 +116,6 @@ h4, h5, h6 {
 a {
   color: #2a7ae2;
   text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
-  a:hover {
-    color: #111;
-    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -245,7 +240,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #dcdcdc;
+      background-color: #fff;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -1215,7 +1210,6 @@ td, th {
   margin: 0 .3em; }
 
 .pure-menu-heading {
-  text-transform: uppercase;
   color: #565d64; }
 
 .pure-menu-link {
