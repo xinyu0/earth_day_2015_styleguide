@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "proxima-nova-soft", Helvetica, Arial, sans-serif;
-  font-size: 1.3rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 300;
   color: #111;
@@ -42,7 +42,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 1.1375rem; }
+  font-size: 0.9625rem; }
 
 /**
  * Lists
@@ -58,9 +58,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima-nova-extra-condensed";
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   line-height: 1.2; }
 
 h4 {
@@ -73,8 +71,7 @@ h6 {
   font-size: 1rem; }
 
 h1 {
-  font-size: 2.5rem;
-  letter-spacing: 0.1em; }
+  font-size: 2.5rem; }
 
 @media screen and (min-width: 502px) {
   h1 {
@@ -84,9 +81,7 @@ h1 {
     font-size: 4rem; } }
 h2 {
   font-size: 1.75rem;
-  text-transform: uppercase;
-  clear: both;
-  letter-spacing: 0.1em; }
+  clear: both; }
 
 @media screen and (min-width: 502px) {
   h2 {
@@ -103,9 +98,6 @@ h3 {
 @media screen and (min-width: 800px) {
   h3 {
     font-size: 2rem; } }
-h3 {
-  letter-spacing: 0.04em; }
-
 h4, h5, h6 {
   letter-spacing: 0.04em; }
 
@@ -340,7 +332,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 1.1375rem;
+  font-size: 0.9625rem;
   color: #828282; }
 
 .post-link {
@@ -367,15 +359,15 @@ pre {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
-    font-size: 26px; }
+    font-size: 22px; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
-        font-size: 22px; } }
+        font-size: 20px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 18px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
-        font-size: 18px; } }
+        font-size: 17px; } }
   .post-content p {
     font-size: 1.3rem; }
     @media screen and (max-width: 800px) {
@@ -954,8 +946,6 @@ td, th {
   color: #cad2d3; }
 
 .pure-form input[readonly], .pure-form select[readonly], .pure-form textarea[readonly] {
-  background-color: #eee;
-  color: #777;
   border-color: #ccc; }
 
 .pure-form input:focus:invalid, .pure-form textarea:focus:invalid, .pure-form select:focus:invalid {
@@ -1283,9 +1273,6 @@ td, th {
 .pure-table-horizontal tbody > tr:last-child > td {
   border-bottom-width: 0; }
 
-body {
-  color: #777; }
-
 .pure-img-responsive {
   max-width: 100%;
   height: auto; }
@@ -1346,217 +1333,7 @@ The content `<div>` is where all your content goes.
 
 .content-subhead {
   margin: 50px 0 20px 0;
-  font-weight: 300;
-  color: #888; }
-
-/*
-The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
-appears on the left side of the page.
-*/
-#menu {
-  margin-left: -150px;
-  /* "#menu" width */
-  width: 150px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 1000;
-  /* so the menu or its navicon stays above all content */
-  background: #191818;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; }
-
-/*
-    All anchors inside the menu should be styled like this.
-    */
-#menu a {
-  color: #999;
-  border: none;
-  padding: 0.6em 0 0.6em 0.6em; }
-
-/*
-    Remove all background/borders, since we are applying them to #menu.
-    */
-#menu .pure-menu,
-#menu .pure-menu ul {
-  border: none;
-  background: transparent; }
-
-/*
-    Add that light border to separate items into groups.
-    */
-#menu .pure-menu ul,
-#menu .pure-menu .menu-item-divided {
-  border-top: 1px solid #333; }
-
-/*
-        Change color of the anchor links on hover/focus.
-        */
-#menu .pure-menu li a:hover,
-#menu .pure-menu li a:focus {
-  background: #333; }
-
-/*
-    This styles the selected menu item `<li>`.
-    */
-#menu .pure-menu-selected,
-#menu .pure-menu-heading {
-  background: #1f8dd6; }
-
-/*
-        This styles a link within a selected menu item `<li>`.
-        */
-#menu .pure-menu-selected a {
-  color: #fff; }
-
-/*
-    This styles the menu heading.
-    */
-#menu .pure-menu-heading {
-  font-size: 110%;
-  color: #fff;
-  margin: 0; }
-
-/* -- Dynamic Button For Responsive Menu -------------------------------------*/
-/*
-The button to open/close the Menu is custom-made and not part of Pure. Here's
-how it works:
-*/
-/*
-`.menu-link` represents the responsive menu toggle that shows/hides on
-small screens.
-*/
-.menu-link {
-  position: fixed;
-  display: block;
-  /* show this only on small screens */
-  top: 0;
-  left: 0;
-  /* "#menu width" */
-  background: #000;
-  background: rgba(0, 0, 0, 0.7);
-  font-size: 10px;
-  /* change this value to increase/decrease button size */
-  z-index: 10;
-  width: 2em;
-  height: auto;
-  padding: 2.1em 1.6em; }
-
-.menu-link:hover,
-.menu-link:focus {
-  background: #000; }
-
-.menu-link span {
-  position: relative;
-  display: block; }
-
-.menu-link span,
-.menu-link span:before,
-.menu-link span:after {
-  background-color: #fff;
-  width: 100%;
-  height: 0.2em; }
-
-.menu-link span:before,
-.menu-link span:after {
-  position: absolute;
-  margin-top: -0.6em;
-  content: " "; }
-
-.menu-link span:after {
-  margin-top: 0.6em; }
-
-/* -- Responsive Styles (Media Queries) ------------------------------------- */
-/*
-Hides the menu at `48em`, but modify this based on your app's needs.
-*/
-.header,
-.content {
-  padding-left: 2em;
-  padding-right: 2em; }
-
-#layout {
-  padding-left: 150px;
-  /* left col width "#menu" */
-  left: 0; }
-
-#menu {
-  left: 150px; }
-
-.menu-link {
-  position: fixed;
-  left: 150px;
-  display: none; }
-
-#layout.active .menu-link {
-  left: 150px; }
-
-body {
-  color: #777; }
-
-.pure-img-responsive {
-  max-width: 100%;
-  height: auto; }
-
-/*
-Add transition to containers so they can push in and out.
-*/
-#layout,
-#menu,
-.menu-link {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out; }
-
-/*
-This is the parent `<div>` that contains the menu and the content area.
-*/
-#layout {
-  position: relative;
-  padding-left: 0; }
-
-#layout.active #menu {
-  left: 150px;
-  width: 150px; }
-
-#layout.active .menu-link {
-  left: 150px; }
-
-/*
-The content `<div>` is where all your content goes.
-*/
-.content {
-  margin: 0 auto;
-  padding: 0 2em;
-  max-width: 800px;
-  margin-bottom: 50px;
-  line-height: 1.6em; }
-
-.header {
-  margin: 0;
-  color: #333;
-  text-align: center;
-  padding: 2.5em 2em 0;
-  border-bottom: 1px solid #eee; }
-
-.header h1 {
-  margin: 0.2em 0;
-  font-size: 3em;
   font-weight: 300; }
-
-.header h2 {
-  font-weight: 300;
-  color: #ccc;
-  padding: 0;
-  margin-top: 0; }
-
-.content-subhead {
-  margin: 50px 0 20px 0;
-  font-weight: 300;
-  color: #888; }
 
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
@@ -1842,9 +1619,163 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     float: left;
     margin-right: 3%;
     box-sizing: border-box; } }
-.bodyfont {
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  background: #fff;
+  color: #444; }
+
+a:hover {
+  color: #2bb5ee; }
+
+img {
+  outline: 0;
+  border: 0; }
+
+h1 {
+  font-weight: 700;
+  line-height: 40px;
+  color: #2bb5ee;
+  margin-bottom: 20px;
+  border-top: 2px solid #222;
+  padding-top: 20px; }
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 22px;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px; }
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #2bb5ee;
+  margin-bottom: 21px; }
+
+h4 {
+  color: #222;
+  font-weight: normal; }
+
+p {
+  margin-bottom: 20px; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  bottom: 0;
+  background: #222;
+  color: #fff; }
+
+.menu a {
+  color: #fff; }
+
+.menu > ul {
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #333;
+  margin: 50px 30px 30px 30px; }
+
+.menu li {
+  list-style: none; }
+
+.menu li a {
+  border-bottom: 1px solid #333;
+  display: block;
+  padding: 5px; }
+
+.menu li a.active {
+  color: #2bb5ee;
+  background: #1b1b1b; }
+
+.menu ul ul li a {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #999; }
+
+.menu .madewith {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #555;
+  border-bottom: 0;
+  font-size: 14px; }
+
+.menu .madewith:hover {
+  color: #2bb5ee; }
+
+code {
+  background: #eee;
+  padding: 0 5px; }
+
+pre {
+  font-family: "Monaco", "Courier", monospace;
+  position: relative;
+  overflow: auto;
+  background: #f9f9f9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px inset;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px inset;
+  padding: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 20px; }
+
+pre.highlight {
+  white-space: nowrap; }
+
+pre code {
+  font-family: "Monaco", "Courier", monospace;
+  background: none;
+  padding: 0; }
+
+#fonts h1, #fonts h2, #fonts h3, #fonts h4, #fonts h5, #fonts h6 {
+  font-family: "proxima-nova-extra-condensed";
+  color: black;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none; }
+#fonts h4 {
+  font-size: 1.5rem; }
+#fonts h5 {
+  font-size: 1.25rem; }
+#fonts h6 {
+  font-size: 1rem; }
+#fonts h1 {
+  font-size: 2.5rem; }
+@media screen and (min-width: 502px) {
+  #fonts h1 {
+    font-size: 3rem; } }
+@media screen and (min-width: 800px) {
+  #fonts h1 {
+    font-size: 4rem; } }
+#fonts h2 {
+  font-size: 1.75rem;
+  clear: both; }
+@media screen and (min-width: 502px) {
+  #fonts h2 {
+    font-size: 2rem; } }
+@media screen and (min-width: 800px) {
+  #fonts h2 {
+    font-size: 2.5rem; } }
+#fonts h3 {
+  font-size: 1.5rem; }
+@media screen and (min-width: 502px) {
+  #fonts h3 {
+    font-size: 1.75rem; } }
+@media screen and (min-width: 800px) {
+  #fonts h3 {
+    font-size: 2rem; } }
+#fonts h4, #fonts h5, #fonts h6 {
+  letter-spacing: 0.04em; }
+
+#bodyfont p {
   font-size: 1.3 rem;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-family: "proxima-nova-soft"; }
 
 .logo0 {
   width: 50px;

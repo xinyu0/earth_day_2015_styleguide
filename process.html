@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 
   <head>
@@ -11,12 +11,12 @@
 ">
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="http://xinyudesign.com/earth_day_2015_styleguide/">
-  <link rel="alternate" type="application/rss+xml" title="Earth Day 2015 Redesign Styleguide" href="http://xinyu0.github.io/earth_day_2015_styleguide/feed.xml" />
   <script src="//use.typekit.net/uby2qma.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
   <script src="../js/responsive-nav.js"></script>
   <script src="../js/ui.js"></script>
   <script src="../../js/ui.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 
@@ -34,7 +34,7 @@
             <a class="pure-menu-heading" href="#">Styleguide</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="http://xinyudesign.com/earth_day_2015_styleguide/" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
                 <li class="pure-menu-item"><a href="grid.html" class="pure-menu-link">Grid</a></li>
                 <li class="pure-menu-item" class="menu-item-divided pure-menu-selected"><a href="fonts.html" class="pure-menu-link">Fonts</a>
                 </li>
@@ -54,59 +54,101 @@
 <h2 class="content-subhead">Process</h2>
 
   <article class="post-content">
-    <ol>
-  <li>
-    <p>Identify the client, learn about their brand (their audience, their problem, competitors, etc.), and figure out what pages to redesign for the site<br />
-I ended up picking the home page, the about page, the program page, the find an event page, and the organize an event page.<br />
-p.s. since it’s a redesign project, I didn’t create a site map for this project.</p>
-  </li>
-  <li>
-    <p>write a proposal based on the research<br />
-Here is a link to my proposal:<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/readme.md">https://github.com/xinyu0/tiy-assignments/blob/master/day_47/readme.md</a></p>
-  </li>
-  <li>
-    <p>define what contents will be on each page<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/contents.jpg">
-<img class="pure-img" src="https://raw.githubusercontent.com/xinyu0/tiy-assignments/master/day_47/contents.jpg" alt="contents outline" />
+    <h3>Researching</h3>
+    Earth Day is probably the most well-known civic observance in the world. Earth Day Network (EDN) is an organization that educates the public about climate change and the importance of sustainability. With its 45th anniversary coming up this month, they have launched its 2015 campaign website themed “It’s Our Turn to Lead.”
+    <br>
+    Despite its influence, the original site was very basic, something that provided Earth Day 2015 with a web presence and not much more. The site is very difficult to navigate, and it's very confusing to the users as what actions to take.<br><br>
+    <h4>Goals for the redesign</h4>
+    1. Make the site more appealing to its younger audience.<br>
+    2. Use context to compel users to action.<br>
+    3. Keep the content clear and concise from beginning to end.<br>
+    4. Improve UI’s with a more consistent look and feel to make things be more consistent.<br><br>
 
-</a></p>
-  </li>
-  <li>
-    <p>build concepts &amp; sketch 10 responsive wireframes<br />
-Here is a link to my sketches:<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/theearthday2015_sketches.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_47/theearthday2015_sketches.pdf</a><br />
-Here is a link to my wireframes:<br />
-<a href="hhttps://github.com/xinyu0/tiy-assignments/blob/master/day_51/wireframes.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_51/wireframes.pdf</a></p>
-  </li>
-  <li>
-    <p>create 3 StyleTiles (typography &amp; color selection)<br />
-Here is a link to my StyleTiles:<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_48/StyleTiles.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_48/StyleTiles.pdf</a></p>
-  </li>
-  <li>
-    <p>explore multiple options &amp; create Comps (grid structure &amp; usability)<br />
-Here is a link to my Comps:<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_51/comps.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_51/comps.pdf</a></p>
-  </li>
-  <li>
-    <p>Code HTML &amp; CSS for 5 pages of the site with Bourbon &amp; Sass (Reset CSS coding (Reset.css or Normalize.css), Responsive Site with 3+ views: Media Queries, percentage-based width on divs, with
-max-widths in pixels, Em-based typography, and flexible images (and alt tags))</p>
-  </li>
-  <li>
-    <p>Icon set of 5 icons custom designed for project<br />
-Here is a link to the logo and icon designs:<br />
-<a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_54/logo_icons.pdf">https://github.com/xinyu0/tiy-assignments/blob/master/day_54/logo_icons.pdf</a></p>
-  </li>
-  <li>Add One or more jQuery-depedent plug-ins that adds to the user experience of the site<br />
-I utilized the following 2 Java-script plugins:<br />
+    The project focused on designing the pages that are most important to the Site and thus empower the user to take action: Home, About, Program, Find an event, and Organize an event. <br>
+    You can see the proposal <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/readme.md">here</a>
+    <br><br>
+  
+    <h3>Restructuring Content</h3>
+    As usual, I started by listing the content that would be included on the page that I was redesigning.
+    <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/contents.jpg">
+    <img class="pure-img" src="https://raw.githubusercontent.com/xinyu0/tiy-assignments/master/day_47/contents.jpg" alt="contents outline"/></a>
+    <br><br>
+    <h3>Sketching page layouts</h3>
+    The original website really looked horrible. This time, I wanted to give it a more modern presentation, and also making sure to keep the content clear and concise from beginning to end. 
+    <br/>
+    You can see the larger version of these sketches <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_47/theearthday2015_sketches.pdf">here</a><br/>
+    <img class="pure-img" src="/image/process1.jpg" alt="contents outline" width="50%"/>
+
+    <br><br>
+    <h3>Wireframes for Home and About</h3>
+    Based on the feedback, I came up with these Wireframes. Typically, the home page should have a continuous and sequential flow of content (what->why->how). I wanted it to present the information in a simple yet compelling way. 
+    I also wanted to add buttons to make things more accessible. The user would be able to jump to other pages very easily, through either these buttons or the main navigation. 
+    <br/>
+    You can see the larger version of these Wireframes <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_51/wireframes.pdf">here</a>
+    <img class="pure-img" src="/image/process2.jpg" alt="contents outline" width="50%"/>
+    <img class="pure-img" src="/image/process3.jpg" alt="contents outline" width="50%"/>
+
+    <br><br>
+    <h3>Creating StyleTiles</h3>
+    I had an idea in mind for some brighter colors. I explored some different options which felt pleasant to look at but not so “in your face.”<br><br>
+
+    <h4>Early StyleTiles</h4>
+    <img class="pure-img" src="/image/process_Page_1.jpg" alt="contents outline" width="50%"/>
+    <img class="pure-img" src="/image/process_Page_2.jpg" alt="contents outline" width="50%"/>
+    <img class="pure-img" src="/image/process_Page_3.jpg" alt="contents outline" width="50%"/><br><br>
+    <h4>Final StyleTile</h4>
+    <img class="pure-img" src="/image/process_Page_4.jpg" alt="contents outline" width="50%"/>
+
+    <br><br>
+    <h3>Creating Mockups for Home and About</h3>
+    You can see the larger version of these Mockups <a href="https://github.com/xinyu0/tiy-assignments/blob/master/day_51/comps.pdf">here</a>
+    <br><br>
+    <h4>Early Mockups</h4>
+    I created mockups to understand more of what it would look like. 
+    <img src="/image/comps_Page_1.jpg" alt="contents outline" width="50%"/>
+    <img src="/image/comps_Page_2.jpg" alt="contents outline" width="50%"/>
+    <br>
+    <h4>Final Mockups</h4>
+    Here are the final mockups for the homepage and the about page. Based on the feedback, I removed the speech bubbles. A subtle, semi-transparent background can lend significant visual interest. 
+    <img class="pure-img" src="/image/comps_Page_4.jpg" alt="contents outline" width="50%"/>
+    <img class="pure-img" src="/image/comps_Page_3.jpg" alt="contents outline" width="50%"/>
+
+    
+    <br><br>
+    <h3>Coding HTML &amp; CSS</h3>
+    Once settled on the idea, I started coding HTML &amp; CSS for the site. I also used Bourbon &amp; Sass for a better and faster web development. 
+    <br><br>
+    <h4>Adding media queries in CSS to make page responsive.</h4>
+    I used a percentage based grid that adapts to smaller screens. All column classes would adjust to 100% width when viewed on mobile.
+    <br><br>
+    <h3>Designing Logo and Icons</h3>
+    It took me a while to design the logo and icon set. I first had an idea for a typographic logo. But when I put it together, the logo really didn’t feel right. 
+
+    <img class="pure-img" src="/image/logo_icons_Page_1.jpg" alt="contents outline" width="25%"/>
+
+    I realized that a good logo should be simple and should be recognizable. I had the up arrow sign in my head, and sketched concepts for those. The final logo and icon designs here, were simplified and adhere to the new style.
+    <img class="pure-img" src="/image/logo_icons_Page_2.jpg" alt="contents outline" width="25%"/>
+    <img class="pure-img" src="/image/logo_icons_Page_3.jpg" alt="contents outline" width="10%"/>
+    <img class="pure-img" src="/image/logo_icons_Page_4.jpg" alt="contents outline" width="10%"/>
+    <img class="pure-img" src="/image/logo_icons_Page_5.jpg" alt="contents outline" width="10%"/>
+    <img class="pure-img" src="/image/logo_icons_Page_6.jpg" alt="contents outline" width="10%"/>
+    <img class="pure-img" src="/image/logo_icons_Page_7.jpg" alt="contents outline" width="10%"/>
+
+
+
+    <br><br>
+    
+
+
+    <h3>Adding jQuery-dependent plug-ins</h3>
+    I utilized the following 3 Java-script plugins to enhance the UX of the Site:<br/>
     <ul>
       <li>Responsive-nav: <a href="http://responsive-nav.com/">http://responsive-nav.com/</a></li>
       <li>Timer: <a href="http://codepen.io/chriscoyier/pen/vbsHK">http://codepen.io/chriscoyier/pen/vbsHK</a></li>
+      <li>Modernizr.js for progressive enhancement and graceful fall-back</li>
     </ul>
   </li>
-  <li>Use Modernizr.js for progressive enhancement and graceful fall-back</li>
-</ol>
+  
 
 
   </article>
