@@ -391,6 +391,8 @@ h4, h5, h6 {
 .icon1, .icon2, .icon3, .icon4, .icon5 {
   height:150px;
   width: 150px;
+  float: left;
+  // display: inline-block;
 }
 
 
@@ -541,7 +543,10 @@ label {
   }
 }
 
-
+.iconimg {
+  display: inline-block;
+  margin: 0 10px;
+}
 
 
 // * {

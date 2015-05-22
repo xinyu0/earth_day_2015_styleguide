@@ -265,9 +265,6 @@ pre {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
-@media screen and (min-width: 502px) {
-  .site-footer {
-    margin-left: 250px; } }
 .footer-heading {
   font-size: 18px;
   margin-bottom: 15px; }
@@ -1791,7 +1788,8 @@ pre code {
 
 .icon1, .icon2, .icon3, .icon4, .icon5 {
   height: 150px;
-  width: 150px; }
+  width: 150px;
+  float: left; }
 
 .icon1 {
   background: url("../image/icon1.svg") no-repeat center center;
@@ -2059,5 +2057,9 @@ label {
     font-size: 1.25rem; } }
 .content h3, .content h4 {
   font-weight: normal; }
+
+.iconimg {
+  display: inline-block;
+  margin: 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
